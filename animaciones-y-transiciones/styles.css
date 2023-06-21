@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content:center;
+    align-items: center;
+}
+
+.btn-modern{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    padding: 15px;
+    background-color: rgb(109, 96, 156);
+    border: none;
+    color: white;
+    border-bottom: 4px solid rgb(99, 88, 136);
+    transition: all 0.4s;
+    cursor: pointer;
+    opacity: 0.75;
+}
+
+.btn-modern:hover{
+    transform: translateY(-5px);
+    opacity: 1;
+    background-color: brown;
+    color:blue;
+    box-shadow: -5px -5px black;
+}
