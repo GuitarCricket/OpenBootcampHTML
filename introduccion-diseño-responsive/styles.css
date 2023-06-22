@@ -1,0 +1,55 @@
+body{
+    display: flex;
+}
+
+
+
+.izquierda{
+    border: 2px solid black;
+    width: 30vw;
+    height: 100vh;
+    background-color: darkslategrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+
+.elemento{
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+}
+
+.derecha{
+    border: 2px solid black;
+    width: 70vw;
+    height: 100vh;
+    background-color: chocolate;
+}
+
+@media (max-width:639px){
+    body{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .derecha{
+        width: 100vw;
+        height: 80vh;
+    }
+    
+    .elemento{
+        width: 40px;
+        height: 40px;
+    }
+
+    .izquierda{
+        width: 100vw;
+        height: 20vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
