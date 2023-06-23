@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <title>Elementos de interes en Bootstarp</title>
+</head>
+<body>
+    <div class="container p-5">
+        <div class="bg-light p-5 rounded-3">
+            <div class="container-fluid py-5">
+                <h1 class="fw-bold display-5">GuitarCricket Jumbotron</h1>
+                <p class="col-8 fs-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente consequuntur ab quas alias ducimus sit tenetur, doloremque nesciunt amet veniam molestias officiis, harum placeat saepe id aliquid ipsam iure voluptates!</p>
+                <button class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#exampleModal">Soy el Botón</button>
+
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">GuitarCricket Modal</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          Estamos haciendo todo lo posible por aprender decentemente, ahora continuemos.
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                          <button type="button" class="btn btn-primary">Guardar los Cambios</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+            </div>
+        </div>
+    </div>
+
+    <div class="container p-5">
+        <div class="mb-5">
+            <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Pedro Perez">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput2" class="form-label">Telefono</label>
+            <input type="number" class="form-control" id="exampleFormControlInput2" placeholder="+56555555555">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <button class="btn btn-primary btn-lg">Enviar Mensaje</button>
+    </div>
+
+    <div class="container p-5" style="background-color: darkgrey; width: 37%;">
+        <div class="card " style="width: 28rem;">
+            <div class="card-header p-5" style="display: flex; justify-content: center; align-items: center;">
+                <h1>Héctor Sánchez</h1>
+            </div>
+            <div class="card-body" style="background-color: #f8f8f8 ; justify-content: center; display: flex; align-items: center; flex-direction: column;">
+              <h5 class="card-title">Desarrollo Frontend</h5>
+              <p class="card-text fs-5">Aplicaciones web para tus necesidades. </p>
+            </div>
+            <div class="card-footer text-body-secondary p-5" style="display: flex; justify-content: center; align-items: center;">
+                <h5>GuitarCricket@gmail.com</h5>
+              </div>
+            
+          </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
